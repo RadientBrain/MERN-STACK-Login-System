@@ -2,10 +2,10 @@
 ### A full-stack Login-Register-ForgotPassword-Logout System
 
 ## Preview
-<img src="https://github.com/RadientBrain/MERN-STACK-Login-System/blob/main/Login_img.jpg" width=50% height=50%>
-<img src="https://github.com/RadientBrain/MERN-STACK-Login-System/blob/main/Register_img.jpg" width=50% height=50%>
-<img src="https://github.com/RadientBrain/MERN-STACK-Login-System/blob/main/ForgotPass_img.jpg" width=50% height=50%>
-<img src="https://github.com/RadientBrain/MERN-STACK-Login-System/blob/main/Welcome_img.jpg" width=50% height=50%>
+<img src="https://github.com/RadientBrain/MERN-STACK-Login-System/blob/main/Login_img.jpg" width=80% height=80%>
+<img src="https://github.com/RadientBrain/MERN-STACK-Login-System/blob/main/Register_img.jpg" width=80% height=80%>
+<img src="https://github.com/RadientBrain/MERN-STACK-Login-System/blob/main/ForgotPass_img.jpg" width=80% height=80%>
+<img src="https://github.com/RadientBrain/MERN-STACK-Login-System/blob/main/Welcome_img.jpg" width=80% height=80%>
 
 ## Features
 - Register
