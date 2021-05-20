@@ -42,9 +42,15 @@ const LoginScreen = ({ history }) => {
   };
 
   return (
+    <>
+    
+    <nav class="navbar navbar-light bg-dark">
+          <Link to="/login" style={{textDecoration: 'none' }}><span style={{color:"white"}}>MERN Login System</span></Link>
+    </nav>
+    
     <div className="login-screen">
       <form onSubmit={loginHandler} className="login-screen__form">
-        <h3 className="login-screen__title">Login</h3>
+        <h3 className="login-screen__title"><b>Login</b></h3>
         {error && <span className="error-message">{error}</span>}
         <div className="form-group">
           <label htmlFor="email">Email:</label>
@@ -81,18 +87,20 @@ const LoginScreen = ({ history }) => {
 
         <div style={{float:'left'}}>
             <span className="login-screen__subtext">
-                Don't have an account? <Link to="/register">Register</Link>
+                Don't have an account? <Link style={{textDecoration:'none'}} to="/register">Register</Link>
             </span>
         </div>
         
         <div style={{float:'right'}}>
-            <Link to="/forgotpassword" className="login-screen__forgotpassword">
+            <Link style={{textDecoration:'none'}} to="/forgotpassword" className="login-screen__forgotpassword">
                 Forgot Password?
             </Link>
         </div>
 
       </form>
     </div>
+  
+    </>
   );
 };
 

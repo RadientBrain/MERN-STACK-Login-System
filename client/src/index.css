@@ -1,7 +1,11 @@
+@import url('https://fonts.googleapis.com/css2?family=Baloo+2&display=swap');
+
+
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  font-family: 'Baloo 2', cursive;
 }
 
 body {
@@ -9,6 +13,52 @@ body {
   line-height: 1.7;
   background: #eee;
   color: #333;
+}
+
+#hideMe {
+  -webkit-animation: cssAnimation 5s forwards; 
+  animation: cssAnimation 5s forwards;
+}
+@keyframes cssAnimation {
+  0%   {opacity: 1;}
+  90%  {opacity: 1;}
+  100% {opacity: 0;}
+}
+@-webkit-keyframes cssAnimation {
+  0%   {opacity: 1;}
+  90%  {opacity: 1;}
+  100% {opacity: 0;}
+}
+#center-scr{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  min-height: 100vh;
+  width: 98%;
+}
+
+#blink {
+  animation: blink 3s infinite;
+}
+
+@keyframes blink {
+  0% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0;
+    transform: scale(2);
+  }
+  51% {
+    opacity: 0;
+    transform: scale(0);
+  }
+  100% {
+    transform: scale(1);
+    opacity: 1;
+  }
 }
 
 .form-group,
@@ -70,4 +120,8 @@ body {
   color: #fff;
   text-align: center;
   margin: 0.5rem 0;
+}
+
+#root{
+  background-color: #f8dd30;
 }

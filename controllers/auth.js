@@ -146,7 +146,7 @@ exports.resetpassword = async (req, res, next) =>{
 
         if(!user){
             //status 400 for bad request
-            return next(new ErrorResponse("Invalid Reset Token!",400));
+            return next(new ErrorResponse("Reset Link Expired!",400));
         }
 
         user.password = req.body.password;

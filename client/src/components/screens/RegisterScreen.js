@@ -1,6 +1,6 @@
 import {useState, useEffect} from 'react';
 import axios from 'axios';
-import {Link} from 'react-router-dom'
+import {Link} from 'react-router-dom';
 import "./RegisterScreen.css"
 
 const RegisterScreen = ({ history }) => {
@@ -60,6 +60,15 @@ const RegisterScreen = ({ history }) => {
 
 
     return(
+      <>
+        <nav class="navbar navbar-light bg-dark">
+          <Link to="/login"  style={{ textDecoration: 'none' }}><span style={{color:"white"}}>MERN Login System</span></Link>
+          <Link to="/login" style={{color: "white", textDecoration: 'none' }}>
+                <div style={{ float: "right"}}>
+                    <button type="submit" className="btn btn-primary">Login</button>
+                </div>
+          </Link>
+        </nav>
         <div className="register-screen">
         <form onSubmit={registerHandler} className="register-screen__form">
             <h3 className="register-scree__titile">
@@ -119,6 +128,7 @@ const RegisterScreen = ({ history }) => {
 
         </form>
     </div>
+      </>
     )
     
 }

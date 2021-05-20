@@ -15,7 +15,7 @@ exports.protect = async (req, res, next)=>{
 
     //if no token found
     if(!token){
-        return next(new ErrorResponse("Not Authorised to Access this Route",401));
+        return next(new ErrorResponse("Session Expired! Try Logging In Again:)",401));
     }
 
     try {

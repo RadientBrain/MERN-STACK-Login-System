@@ -53,11 +53,18 @@ const ResetPasswordScreen = ({ history, match }) => {
         onSubmit={resetPasswordHandler}
         className="resetpassword-screen__form"
       >
-        <h3 className="resetpassword-screen__title">Forgot Password</h3>
+        <h3 className="resetpassword-screen__title"><b>Forgot Password</b></h3>
         {error && <span className="error-message">{error} </span>}
         {success && (
           <span className="success-message">
-            {success} <Link to="/login">Login</Link>
+            {success} 
+            
+            <Link to="/login" style={{color: "white", textDecoration: 'none' }}>
+                <div style={{ float: "right"}}>
+                    <button type="submit" className="btn btn-primary">Login</button>
+                </div>
+            </Link>
+
           </span>
         )}
         <div className="form-group">
