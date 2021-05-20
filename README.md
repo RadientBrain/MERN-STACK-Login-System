@@ -1,12 +1,19 @@
 # MERN-STACK-Login-System
 ### A full-stack Login-Register-ForgotPassword-Logout System
 
+## Preview
+![Login]('./Login_img.jpg')
+![Register]('./Register_img.jpg')
+![Forgot Password]('./ForgotPass_img.jpg')
+![Welcome]('./Welcome_img.jpg')
+
 ## Features
 - Register
 - Login
 - Password Reset through Email 
 - Logout
 - 404-Error Page
+- JWT Authentication
 - Protected-Routes
 
 ## Tech
