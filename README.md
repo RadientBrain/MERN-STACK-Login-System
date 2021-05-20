@@ -44,7 +44,7 @@ You must have [MongoDB], [Express], [ReactJS] and [Node.js] setup on your comput
         ```sh
         cd MERN-STACK-Login-System
         npm install
-        npm start server
+        npm run server
         ```
     - In the 2nd terminal connect to the MongoDB database :
         ```sh
