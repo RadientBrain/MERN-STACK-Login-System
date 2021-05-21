@@ -2,10 +2,26 @@
 ### A full-stack Login-Register-ForgotPassword-Logout System
 
 ## Preview
+#### Login Page
 <img src="https://github.com/RadientBrain/MERN-STACK-Login-System/blob/main/Login_img.jpg" width=100% height=100%>
-<img src="https://github.com/RadientBrain/MERN-STACK-Login-System/blob/main/Register_img.jpg" width=100% height=100%>
-<img src="https://github.com/RadientBrain/MERN-STACK-Login-System/blob/main/ForgotPass_img.jpg" width=100% height=100%>
+
+#### Welcome Page
 <img src="https://github.com/RadientBrain/MERN-STACK-Login-System/blob/main/Welcome_img.jpg" width=100% height=100%>
+
+#### Register Page
+<img src="https://github.com/RadientBrain/MERN-STACK-Login-System/blob/main/Register_img.jpg" width=100% height=100%>
+
+#### Forgot Password Page
+<img src="https://github.com/RadientBrain/MERN-STACK-Login-System/blob/main/ForgotPass_img.jpg" width=100% height=100%>
+
+#### Email Reset Password Link
+<img src="https://github.com/RadientBrain/MERN-STACK-Login-System/blob/main/Email_resetpass.jpg" width=100% height=100%>
+
+#### Reset New Password Page
+<img src="https://github.com/RadientBrain/MERN-STACK-Login-System/blob/main/ResetNewPass.jpg" width=100% height=100%>
+
+#### 404-Error Page
+<img src="https://github.com/RadientBrain/MERN-STACK-Login-System/blob/main/404_img.jpg" width=100% height=100%>
 
 ## Features
 - Register
